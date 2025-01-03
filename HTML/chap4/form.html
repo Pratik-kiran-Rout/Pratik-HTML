@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+
+<body>
+     <!-- input elements  -->
+     <div>
+          <h1>Travel Form</h1>
+          <h2>Input element</h2>
+          <form action="form.php">
+               <b>Enter your name</b><br>
+               <input type="text" placeholder="Enter your name" name="fullname" id="name"><br>
+
+               <!--name="fullname" allows this input field to be identified when the form is submitted.
+                   id="fullname" allows it to be targeted by JavaScript or CSS  -->
+               <br><b>Choose your Section</b> <br>
+               <label for="secA">
+                    <input type="radio" name="section" id="secA"> Section A
+               </label>
+               <label for="secB">
+                    <input type="radio" name="section" id="secB"> Section B
+               </label>
+               <!-- so the differance is if you use the "Radio" then you can able to choose only one option -->
+               <!-- But  -->
+               <!-- If you choose the checkbox option then you can choose multiple options  -->
+               <label for="secc">
+                    <input type="radio" name="section" id="secc"> Section c
+               </label>
+               <label for="secd">
+                    <input type="radio" name="section" id="secd"> Section d
+               </label>
+          </form>
+     </div>
+
+     <br>
+
+     <div>
+          <b>Select your country (You can choose multiple options) </b>
+          <form action="form.php">
+
+               <!-- if you put same id wich is same as the for then it will give batter expireance  -->
+               <label for="con1">
+                    <input type="checkbox" class="country" id="con1"> India
+               </label>
+
+               <label for="con2">
+                    <input type="checkbox" class="country" id="con2"> USA
+               </label>
+
+               <label for="con3">
+                    <input type="checkbox" class="country" id="con3"> Japan
+               </label>
+
+               <label for="con4">
+                    <input type="checkbox" class="country" id="con4"> Indonesia
+               </label>
+          </form>
+          </div4>
+ <br>
+          <b>For more information regarding the input type click on this link </b>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#accept" target="_main">Link</a>
+          <hr>
+ <!-- textarea  -->
+<h2>Text area element</h2>
+
+<textarea  style="overflow-x: scroll;" name="explain"  id="explain" rows="5" cols="40" placeholder="explain Why you want to join">
+</textarea>
+
+<!-- select tag (giving options to the user like : yes or no and languages like etc ) -->
+
+ <select name="lang" id="lang">select your language
+     <option value="lang0">language</option>
+     <option value="lang1">Eng</option>
+     <option value="lang1">Odia</option>
+     <option value="lang1">Tamil</option>
+     <option value="lang2">Hindi</option>
+ </select>
+ <br>
+ <select name="submit" id="submit">
+     <option value="sub0">select</option>
+     <option value="sub1">Yes</option>
+     <option value="sub2">No</option>
+ </select>
+ <!-- Button use  -->
+ <input type="button" name="Button" id="button" value="Submit">
+</body>
+<iframe src="https://www.codewithharry.com" frameborder="0" width="500px" height="500px"></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RETawEErhPw?si=KgqC_dlRGgSXWe3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen autoplay></iframe>
+<video src="video/video.mp4.mkv" width="500px" controls autoplay loop>
+     
+</video>
+</html>

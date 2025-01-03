@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+     <p>linkhere.html would be the page you want to link to, and Click Me would be the blue, underlined link that the page displays.
+
+          In the example above, we used a relative path. You can tell if a link is relative if the path isn't a full website address. (A full website address includes http://www.) As you may have guessed, an absolute path does provide the full website address. Here are a few basic examples of relative and absolute paths:
+          
+          Relative Paths
+          index.html
+          /graphics/image.png
+          /help/articles/how-do-i-set-up-a-webpage.html
+          Absolute Paths
+          http://www.mysite.com
+          http://www.mysite.com/graphics/image.png
+          http://www.mysite.com/help/articles/how-do-i-set-up-a-webpage.html
+          The first difference you'll notice between the two different types of links is that absolute paths always include the domain name of the website, including http://www., whereas relative links only point to a file or a file path. When a user clicks a relative link, the browser takes them to that location on the current site. For that reason, you can only use relative links when linking to pages or files within your site, and you must use absolute links if you're linking to a location on another website.
+          
+          So, when a user clicks a relative link, how does their browser know where to take them? Well, it looks for the location of the file relative to the page where the link appears. (That's where the name comes from!) Let's get back to our first example:
+          
+           href="linkhere.html">Click Me
+           
+          This link points to a filename, with no path provided. This means that linkhere.html is located in the same folder as the page where this link appears. If both files were located in the root directory of the Website http://www.website.com, the actual website address the user would be taken to is http://www.website.com/linkhere.html. If both files were located in a subfolder of the root directory called files, the user would be taken to http://www.website.com/files/linkhere.html.
+          
+          How about another example? Let's say we our http://www.website.com domain had a subfolder called pictures. Inside the pictures folder is a file called pictures.html. The full path to this page would be:
+          
+          "http://www.website.com/pictures/pictures.html"</p>
+</body>
+</html>
