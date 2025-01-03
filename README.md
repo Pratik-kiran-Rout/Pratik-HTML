@@ -1,2 +1,15 @@
-# Pratik-HTML
-HTML Repository Created by Pratik Kiran Rout, this repository offers HTML templates and projects, covering core concepts, responsive designs, and practical examples. It's ideal for beginners and developers enhancing their web development skills.
+# HTML Repository
+
+Welcome to the **HTML Repository** by **Pratik Kiran Rout**!  
+
+This repository serves as a comprehensive collection of HTML templates, projects, and examples, showcasing the foundation of modern web development. It is designed for both beginners and experienced developers who want to learn or enhance their HTML skills.
+
+## Features
+- Core HTML concepts and syntax
+- Responsive and semantic designs
+- Real-world templates and projects for practice
+
+## How to Use
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/Pratik-Kiran-Rout/html.git
